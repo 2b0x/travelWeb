@@ -1,0 +1,93 @@
+@media (max-width: 768px){
+	#banner img{width:100% !important;}
+	.main{
+		margin-bottom: 300px;
+	}
+}
+/*.main{
+	margin-bottom: -190px;
+}*/
+.row{
+	width: 800px;
+	height: 600px;
+	margin: 70px auto  0 !important;
+}
+.main .row .scrollBanner-icons{
+	margin-left: -32px !important;
+}
+.col-sm-4{
+	padding: 0 !important;
+}
+#banner{
+   border-radius: 10px 0 0 10px;
+}
+.boxLogo{
+    margin-top: 60px;
+	text-align: center;
+}
+.boxLogo i{
+	display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-image: url(../img/logo.png);
+    background-size: contain;
+}
+.col-sm-8{
+	padding: 0 30px !important;
+	height: 500px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.3); 
+}
+.col-sm-8 p{
+	margin-bottom: 15px;
+}
+.title{
+	    font-size: 20px;
+    font-weight: 800;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-left: 8px solid #FEC400;
+}
+.col-sm-8 input{
+	outline: none;
+	font-size: 16px;
+    /*font-weight: 800;*/
+    width: 210px;
+    padding: 10px 30px 10px 15px;
+    border: 0;
+    border-left: 8px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.yuan{
+	cursor: pointer;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: background-color .5s;
+    margin-bottom: -2px;
+    margin-right: 5px;
+        /*background-image: url(img/go.png);*/
+    background-size: cover;
+}
+.xieyi{
+	margin-top: 30px;
+	text-align: center;
+}
+.join{
+	text-align: center;
+}
+.join span{
+	cursor: pointer;
+	margin-top: 10px;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #FEC400;
+    font-weight: 800;
+    font-size: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.4)
+}

@@ -1,0 +1,234 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑" !important;
+}
+@media (max-width: 768px){
+	nav.nav,.row{
+		width: auto !important;
+	}
+	.footerBg{
+		text-align: center;
+	}
+	.footer{
+		width: auto !important;
+	}
+	.logo{
+		margin-left: 10px;
+	}
+	.left,.right{
+		display: block !important;
+		float: none !important;
+	}
+	.navbar-header{
+		    padding-top: 5px;
+    background-color: rgba(255,255,255,.8);
+	}
+}
+.main{
+	    height: 100%;
+    min-height: 100%;
+    margin-top: -70px;
+    padding-top: 70px;
+}
+
+.header_bar{
+	height: 70px;
+}
+.icon-bar{
+	background-color: black;
+}
+.logo{
+	display: inline-block;
+	/*margin-left: 10px;*/
+}
+.logo i{
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: wheat;
+    border-radius: 10px;
+}
+nav.nav{
+	margin: 0 auto;
+	width: 800px;
+	margin-top: 10px;
+}
+ul.nav{
+	background-color: white;
+    box-shadow: 0 5px 7px rgba(0,0,0,.2);
+    border-radius: 10px;
+    float: right;
+    padding: 0 50px;
+}
+ul.nav li{
+	    margin: 0 15px;
+}
+ul.nav li a{
+	font-size: 15px;
+	width: 95px;
+	text-align: center;
+	color: black;
+}
+.nav>li>a:focus, ul.nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    border-bottom: 6px solid #FEC100;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 15px 0 10px;
+    text-align: center;
+	color: black;
+    
+}
+.active{
+	color: black;
+	text-decoration: none;
+    background-color: transparent;
+    border-bottom: 6px solid #FEC100;
+    font-size: 18px !important;
+    font-weight: 800;
+    padding: 15px 0 10px !important;
+    text-align: center;
+}
+.footerBg{
+	    background-color: #1c1c1c;
+    width: 100%;
+    height: 300px;
+    border-top: 15px solid #FEC400;
+}
+.footer{
+	width: 900px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.footer .left{
+	display: inline-block;
+}
+.footer .left i{
+	margin-bottom: -5px;
+	margin-right: 20px;
+	width: 70px;
+    height: 70px;
+    display: inline-block;
+    border-radius: 10px;
+    background-image: url(../img/logo.png);
+    background-size: contain;
+}
+.footer .left div{
+	display: inline-block;
+}
+.footer .left div p{
+	color: #c1c1c1;
+	margin-bottom: 3px;
+}
+.footer .left div p span{
+	color: #FEC400;
+}
+.footer .right i{
+	    width: 25px;
+    height: 25px;
+    display: inline-block;
+    /*background-image: url(img/qq.png);*/
+    background-size: contain;
+}
+.footer .right{
+	display: inline-block;
+    float: right;
+    margin-top: 50px;
+}
+
+
+
+.mask{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,.4);
+	z-index: 1033;
+}
+.successBg{
+	    height: 300px;
+    background-color: #FEC400;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -150px;
+}
+.success{
+	width: 830px;
+	margin: 0 auto;
+}
+.success div{
+	display: inline-block;
+	float: left;
+}
+.success .left i{
+	display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-image: url(../img/active/phone1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.success .right i{
+	display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-image: url(../img/active/phone3.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sWord{
+	width: 430px;
+	padding-left: 15px;
+}
+.sWord p{
+	font-size: 29px;
+    font-weight: 800;
+}
+.sWord p:first-child{
+	font-size: 45px;
+    font-weight: 800;
+}
+.sWord span{
+	display: inline-block;
+}
+.sBtn{
+	cursor: pointer;
+	display: inline-block;
+    width: 160px;
+    height: 63px;
+    background-image: url(../img/active/btn1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.erweima{
+	display: inline-block;
+    height: 110px;
+    margin-bottom: 10px;
+    width: 110px;
+    background-image: url(../img/active/erweima.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+span a{
+	text-decoration: none;
+	color: black;
+}
+span a:hover{
+	text-decoration: none;
+	color: white;
+}

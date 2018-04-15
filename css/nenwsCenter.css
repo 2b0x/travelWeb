@@ -1,0 +1,105 @@
+@media (max-width: 768px){
+	.content{
+		width: auto !important;
+	}
+	.row{
+		margin: 0 !important;
+		text-align: center;
+		margin-bottom: 80px !important;
+	}
+	.col-sm-6{
+		width: 90%;
+	}
+	.cPic{
+		border-radius: 10px 10px 0 0 !important;
+	}
+	.cContent{
+		text-align: left;
+		border-radius: 0 0 10px 10px !important;
+	}
+}
+.main{
+    background-color: #EFEFEF;
+	padding-top: 0;
+	height: auto;
+    padding-bottom: 60px;
+}
+.row{
+	margin-bottom: 70px;
+}
+.col-sm-6{
+	box-shadow: 7px 8px 10px rgba(0,0,0,.1);
+}
+.content{
+    width: 900px;
+    margin: 0 auto;
+}
+.contentMain{
+	margin-top: 40px;
+}
+.contentTitle{
+	margin-top: 10px;
+	width: 200px;
+    height: 70px;
+	display: inline-block;
+    position: relative;
+}
+.contentTitle span{
+    font-size: 30px;
+    font-weight: 800;
+    z-index: 2;
+    width: 120px;
+    position: absolute;
+}
+.contentTitle i{
+	position: absolute;
+    display: inline-block;
+    width: 110px;
+    left: 25px;
+    top: 20px;
+    height: 30px;
+    background-color: #FEC400;
+}
+.cPic{
+    display: inline-block;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+}
+.cPic i{
+	width: 100%;
+    display: inline-block;
+    height: 220px;
+    bottom: 0;
+    margin-top: -40px;
+    background-image: url(../img/newCenter/1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3)
+}
+.cContent{
+    display: inline-block;
+    height: 200px;
+    background-color: white;
+    border-radius: 0  10px 10px 0;
+}
+.ccTitle{
+	font-size: 18px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.more{
+	cursor: pointer;
+	display: inline-block;
+    padding: 4px 10px;
+    background-color: #FEC400;
+    border-radius: 20px;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
